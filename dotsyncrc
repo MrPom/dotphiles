@@ -18,6 +18,12 @@
 [files]
 # Uncomment examples below
 dotsyncrc
+alias
+bashrc
+gitconfig
+npmrc
+profile
+zshrc
 #ack/ackrc
 #aptitude
 #bin:bin
