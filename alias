@@ -1,0 +1,39 @@
+# Some ls aliases.
+alias l='ls -lah'
+alias la='ls -lAh'
+alias ll='ls -lh'
+alias ls='ls --color=tty'
+alias lsa='ls -lah'
+alias dir='dir -F --color=always'
+
+# Navigation enhancement.
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias .......='cd ../../../../../..'
+
+# Shortcuts.
+alias c='clear'
+alias x='exit'
+alias df='df -h'
+alias cp='cp -iv'
+alias rm='rm -i'
+alias mv='mv -iv'
+alias grep='grep --color=auto -in'
+
+# SVN aliases.
+if [ -x /usr/bin/svn ]; then
+    [[ -f /usr/local/bin/svn-color.py ]] && alias svn=/usr/local/bin/svn-color.py
+    alias svnupdry='svn merge --dry-run -r BASE:HEAD .'
+    alias svn-remove='rm -rf `find . -type d -name .svn`'
+fi
+
+# `root` stuff.
+if [ `id -u` != 0 ]; then
+    # Memory.
+    alias dropmem='sync && echo 3 > /proc/sys/vm/drop_caches'
+    alias dropswap='swapoff -a &&  swapon -a'
+    alias dropfull='dropmem && dropswap && dropmem'
+fi
