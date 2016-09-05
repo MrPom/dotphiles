@@ -1,37 +1,25 @@
-#
-# dotphiles : https://github.com/dotphiles/dotphiles
-#
 # Config for dotsync.
-#
-# Authors:
-#   Ben O'Hara <bohara@gmail.com>
-#
 
 # Location of your dotfiles in $HOME
 # DOTFILES=.dotfiles
 
 # dotfiles to symlink
-#
 # srcfile:dstfile
 # dstfile will be '.$srcfile' by default (with path removed)
-#
+
 [files]
 # Uncomment examples below
-dotsyncrc
-alias
-bashrc
-gitconfig
-npmrc
-profile
-zshrc
 #ack/ackrc
+alias/alias
 #aptitude
+bash/bashrc
 #bin:bin
 #ctags/ctags
 #cmus
 #curl/curlrc
-#git/gitconfig
-#git/gitignore
+dotsyncrc
+git/gitconfig
+git/gitignore
 #git/gitattributes
 #git/tigrc
 #git/gitk
@@ -40,6 +28,9 @@ zshrc
 #input/editrc
 #input/inputrc
 #irssi
+liquidprompt/liquidpromptrc:config/liquidpromptrc
+liquidprompt/liquidprompt/mr_pom.ps1:config/liquidprompt/mr_pom.ps1
+liquidprompt/liquidprompt/mr_pom.theme:config/liquidprompt/mr_pom.theme
 #mpd/mpd.conf
 #mercurial/hgrc
 #mercurial/hgignore
@@ -49,7 +40,9 @@ zshrc
 #mysql/my.cnf
 #ncmpcpp/config
 #ncmpcpp/error.log
+npm/npmrc
 #postgresql/psqlrc
+profile/profile
 #python/pythonrc
 #python/pylintrc
 #rpm/rpmmacros
@@ -79,20 +72,12 @@ zshrc
 #zsh/zlogout
 #zsh/zprofile
 #zsh/zshenv
-#zsh/zshrc
+zsh/zshrc
 [endfiles]
 
 # Hosts to sync
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
-#host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
-#host2.example.com               git=ANY                                                #git repo, pull from anywhere
-#host3.example.com               git=ANY                                                #git repo, pull from anywhere
-#host4.example.com               git=host5.example.com                                  #git repo, pull from host5
-#host5.example.com               git=NONE                                               #git repo, local only
-#host6.example.net               rsync=host1.example.com                                #rsync mirror, push from host1
-#host7.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
-#host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
-#host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
+d001.dev    git=any
 [endhosts]
 

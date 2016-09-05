@@ -1,19 +1,7 @@
-#
-# dotphiles : https://github.com/dotphiles/dotphiles
-#
-# Git global ignores
-#
-# Authors:
-#   Ben O'Hara <bohara@gmail.com>
-#
-
-# Compiled source
-*.pyc
-*.pyo
-
 # IDE specific
 dwsync.xml
 *.tmp
+*.idea
 *.wpr
 *.project
 *.cproject
@@ -45,4 +33,3 @@ Thumbs.db
 svn-commit.*
 tags
 TAGS
-
