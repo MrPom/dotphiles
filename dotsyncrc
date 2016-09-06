@@ -38,6 +38,8 @@ liquidprompt/liquidprompt/mr_pom.theme:.config/liquidprompt/mr_pom.theme
 #mutt/muttrc
 #mutt/offlineimaprc
 #mysql/my.cnf
+nano/nanorc
+nano/syntax:.nano/syntax
 #ncmpcpp/config
 #ncmpcpp/error.log
 npm/npmrc

@@ -65,10 +65,10 @@ set multibuffer
 set noconvert
 
 # Don't follow symlinks when writing files.
-unset nofollow
+# unset nofollow
 
 # Don't display the help lists at the bottom of the screen.
-set nohelp
+# set nohelp
 
 # Don't add newlines to the ends of files.
 unset nonewlines
@@ -134,7 +134,7 @@ set suspend
 set tabsize "4"
 
 # Convert typed tabs to spaces
-set tabstospaces
+# set tabstospaces
 
 # Save automatically on exit, don't prompt.
 unset tempfile
@@ -152,54 +152,53 @@ unset wordbounds
 
 ## Syntax Highlighting
 
-#apacheconf
-#include "~/.nano.d/syntax-highlighting/apacheconf.nanorc"
-#asm
-#include "~/.nano.d/syntax-highlighting/asm.nanorc"
-#c
-#include "~/.nano.d/syntax-highlighting/c.nanorc"
-#conf
-#include "~/.nano.d/syntax-highlighting/conf.nanorc"
-#css
-include "~/.nano.d/syntax-highlighting/css.nanorc"
-#cython
-#include "~/.nano.d/syntax-highlighting/cython.nanorc"
-#fortran
-#include "~/.nano.d/syntax-highlighting/fortran.nanorc"
-#gentoo
-#include "~/.nano.d/syntax-highlighting/gentoo.nanorc"
-#groff
-#include "~/.nano.d/syntax-highlighting/groff.nanorc"
-#html
-include "~/.nano.d/syntax-highlighting/html.nanorc"
-#java
-include "~/.nano.d/syntax-highlighting/java.nanorc"
-#lua
-#include "~/.nano.d/syntax-highlighting/lua.nanorc"
-#man
-include "~/.nano.d/syntax-highlighting/man.nanorc"
-#mutt
-#include "~/.nano.d/syntax-highlighting/mutt.nanorc"
-#nanorc
-include "~/.nano.d/syntax-highlighting/nanorc.nanorc"
-#patch
-include "~/.nano.d/syntax-highlighting/patch.nanorc"
-#perl
-include "~/.nano.d/syntax-highlighting/perl.nanorc"
-#php
-include "~/.nano.d/syntax-highlighting/php.nanorc"
-#pov
-#include "~/.nano.d/syntax-highlighting/pov.nanorc"
-#python
-include "~/.nano.d/syntax-highlighting/python.nanorc"
-#reST
-#include "~/.nano.d/syntax-highlighting/reST.nanorc"
-#ruby
-include "~/.nano.d/syntax-highlighting/ruby.nanorc"
-#sh
-include "~/.nano.d/syntax-highlighting/sh.nanorc"
-#tex
-include "~/.nano.d/syntax-highlighting/tex.nanorc"
-#xml
-include "~/.nano.d/syntax-highlighting/xml.nanorc"
-
+# apacheconf
+include "~/.nano/syntax/apacheconf.nanorc"
+# asm
+# include "~/.nano/syntax/asm.nanorc"
+# c
+# include "~/.nano/syntax/c.nanorc"
+# conf
+# include "~/.nano/syntax/conf.nanorc"
+# css
+include "~/.nano/syntax/css.nanorc"
+# cython
+# include "~/.nano/syntax/cython.nanorc"
+# fortran
+# include "~/.nano/syntax/fortran.nanorc"
+# gentoo
+# include "~/.nano/syntax/gentoo.nanorc"
+# groff
+# include "~/.nano/syntax/groff.nanorc"
+# html
+include "~/.nano/syntax/html.nanorc"
+# java
+# include "~/.nano/syntax/java.nanorc"
+# lua
+# include "~/.nano/syntax/lua.nanorc"
+# man
+include "~/.nano/syntax/man.nanorc"
+# mutt
+# include "~/.nano/syntax/mutt.nanorc"
+# nanorc
+include "~/.nano/syntax/nanorc.nanorc"
+# patch
+include "~/.nano/syntax/patch.nanorc"
+# perl
+# include "~/.nano/syntax/perl.nanorc"
+# php
+include "~/.nano/syntax/php.nanorc"
+# pov
+# include "~/.nano/syntax/pov.nanorc"
+# python
+include "~/.nano/syntax/python.nanorc"
+# reST
+# include "~/.nano/syntax/reST.nanorc"
+# ruby
+include "~/.nano/syntax/ruby.nanorc"
+# sh
+include "~/.nano/syntax/sh.nanorc"
+# tex
+# include "~/.nano/syntax/tex.nanorc"
+# xml
+include "~/.nano/syntax/xml.nanorc"
