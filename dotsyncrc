@@ -82,5 +82,6 @@ zsh/zshrc
 [hosts]
 d001.dev            git=any
 vps310750.ovh.net   git=any
+excellbat.fr        git=any
 [endhosts]
 
