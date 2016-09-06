@@ -1,5 +1,4 @@
-source ~/.alias
-source ~/git/antigen/antigen.zsh
+source ~/.dotfiles/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -38,3 +37,6 @@ antigen bundle nojhan/liquidprompt
 
 # Tell antigen that you're done.
 antigen apply
+
+# Custom aliases.
+source ~/.alias
