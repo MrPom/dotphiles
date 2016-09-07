@@ -19,3 +19,6 @@
 [submodule "dotsync"]
 	path = dotsync
 	url = git@github.com:MrPom/dotsync.git
+[submodule "svn-color"]
+	path = svn-color
+	url = git@github.com:philchristensen/svn-color.git
