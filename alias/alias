@@ -33,7 +33,7 @@ fi
 # `root` stuff.
 if [ `id -u` = 0 ]; then
     # Memory.
-    alias dropmem='sync && echo 3 > /proc/sys/vm/drop_caches'
+    alias dropram='sync && echo 3 > /proc/sys/vm/drop_caches'
     alias dropswap='swapoff -a &&  swapon -a'
-    alias dropfull='dropmem && dropswap && dropmem'
+    alias dropmem='dropram && dropswap && dropram'
 fi
