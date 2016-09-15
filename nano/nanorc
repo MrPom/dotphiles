@@ -8,7 +8,7 @@
 #
 
 # Use auto-indentation.
-set autoindent
+# set autoindent
 
 # Create backup files in "filename~"
 # set backup
@@ -137,7 +137,7 @@ set tabsize "4"
 # set tabstospaces
 
 # Save automatically on exit, don't prompt.
-unset tempfile
+# unset tempfile
 
 # Disallow file modification.
 unset view
