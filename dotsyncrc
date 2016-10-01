@@ -81,6 +81,7 @@ zsh/zshrc
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
 d001.dev            git=any
+envy	            git=any
 vps310750.ovh.net   git=any
 excellbat.fr        git=any
 [endhosts]
