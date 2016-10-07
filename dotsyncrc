@@ -80,8 +80,12 @@ zsh/zshrc
 # Hosts to sync
 ## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
+envy                git=any
+mr-pom.io           git=any
 d001.dev            git=any
+envy	            git=any
 vps310750.ovh.net   git=any
+vps313297.ovh.net   git=any
 excellbat.fr        git=any
 [endhosts]
 

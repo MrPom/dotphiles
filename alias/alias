@@ -25,15 +25,16 @@ alias grep='grep --color=auto -in'
 
 # SVN aliases.
 if [ -x /usr/bin/svn ]; then
-    [[ -f /usr/local/bin/svn-color.py ]] && alias svn=/usr/local/bin/svn-color.py
+    alias svn=~/.dotfiles/svn-color/svn-color.py
+    alias svn-export=~/.dotfiles/svn-export/svn-export.sh
     alias svnupdry='svn merge --dry-run -r BASE:HEAD .'
     alias svn-remove='rm -rf `find . -type d -name .svn`'
 fi
 
 # `root` stuff.
-if [ `id -u` != 0 ]; then
+if [ `id -u` = 0 ]; then
     # Memory.
-    alias dropmem='sync && echo 3 > /proc/sys/vm/drop_caches'
+    alias dropram='sync && echo 3 > /proc/sys/vm/drop_caches'
     alias dropswap='swapoff -a &&  swapon -a'
-    alias dropfull='dropmem && dropswap && dropmem'
+    alias dropmem='dropram && dropswap && dropram'
 fi
