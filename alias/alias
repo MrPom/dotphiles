@@ -22,6 +22,7 @@ alias cp='cp -iv'
 alias rm='rm -i'
 alias mv='mv -iv'
 alias grep='grep --color=auto -in'
+alias dotsync='~/.dotfiles/dotsync/bin/dotsync'
 
 # SVN aliases.
 if [ -x /usr/bin/svn ]; then
