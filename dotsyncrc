@@ -32,8 +32,6 @@ liquidprompt/liquidpromptrc:.config/liquidpromptrc
 liquidprompt/liquidprompt/mr_pom.ps1:.config/liquidprompt/mr_pom.ps1
 liquidprompt/liquidprompt/mr_pom.theme:.config/liquidprompt/mr_pom.theme
 #mpd/mpd.conf
-#mercurial/hgrc
-#mercurial/hgignore
 #mutt
 #mutt/muttrc
 #mutt/offlineimaprc
