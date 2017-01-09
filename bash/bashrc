@@ -118,3 +118,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+[[ $- = *i* ]] && source ~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-nojhan-SLASH-liquidprompt.git/liquidprompt

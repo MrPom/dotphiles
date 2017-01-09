@@ -25,6 +25,9 @@ alias grep='grep --color=auto -in'
 alias dotsync='~/.dotfiles/dotsync/bin/dotsync'
 alias ssh-eval='eval "$(ssh-agent -s)"'
 
+# Keyboard
+alias kbl=~/.msi-klm/msibacklight
+
 # SVN aliases.
 if [ -x /usr/bin/svn ]; then
     alias svn=~/.dotfiles/svn-color/svn-color.py
