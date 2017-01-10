@@ -40,13 +40,13 @@ Host *
     KeepAlive yes
     ServerAliveCountMax 2
 
-# Main gitlab.com server
+# gitlab.com server
 Host gitlab.com
 RSAAuthentication yes
 IdentityFile ~/.ssh/id_rsa-mr_pom
 User Mr_Pom
 
-# Main github.com server
+# github.com server
 Host github.com
 RSAAuthentication yes
 IdentityFile ~/.ssh/id_rsa-mr_pom
