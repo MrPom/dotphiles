@@ -51,3 +51,9 @@ Host github.com
 RSAAuthentication yes
 IdentityFile ~/.ssh/id_rsa-mr_pom
 User MrPom
+
+# Periscope gitlab server
+Host gitlab.byperiscope.com
+RSAAuthentication yes
+IdentityFile ~/.ssh/id_rsa-mr_pom
+User jpommier
