@@ -5,3 +5,5 @@
 	autocrlf = input
 [push]
 	default = simple
+[pull]
+    rebase = preserve

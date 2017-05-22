@@ -16,7 +16,7 @@ Host *
 #   ConnectTimeout 0
 #   StrictHostKeyChecking ask
     IdentityFile ~/.ssh/id_rsa-mr_pom
-    IdentityFile ~/.ssh/id_rsa-periscope
+    IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
 #   IdentityFile ~/.ssh/id_dsa
 #   IdentityFile ~/.ssh/id_ecdsa
 #   IdentityFile ~/.ssh/id_ed25519
@@ -42,18 +42,32 @@ Host *
 
 # gitlab.com server
 Host gitlab.com
-RSAAuthentication yes
-IdentityFile ~/.ssh/id_rsa-mr_pom
-User Mr_Pom
+    RSAAuthentication yes
+    IdentityFile ~/.ssh/id_rsa-mr_pom
+    User Mr_Pom
 
 # github.com server
 Host github.com
-RSAAuthentication yes
-IdentityFile ~/.ssh/id_rsa-mr_pom
-User MrPom
+    RSAAuthentication yes
+    IdentityFile ~/.ssh/id_rsa-mr_pom
+    User MrPom
 
 # Periscope gitlab server
 Host gitlab.byperiscope.com
-RSAAuthentication yes
-IdentityFile ~/.ssh/id_rsa-mr_pom
-User jpommier
+    RSAAuthentication yes
+    IdentityFile ~/.ssh/id_rsa-mr_pom
+    User jpommier
+
+# Sequoiasoft Eklo production server
+Host eklohotels.com
+    HostName 217.13.56.142
+    RSAAuthentication yes
+    IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
+    User ad2340
+
+# Sequoiasoft Eklo pre-production server
+Host eklo.resalys.com
+    HostName 217.13.57.44
+    RSAAuthentication yes
+    IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
+    User ad2336
