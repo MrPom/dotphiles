@@ -28,7 +28,7 @@ if [ $revision_from ]; then
         # 1) the status line (containing A, M, AM, D etc)
         # 2) the full repository and filename string
         # so only export the file when it's not the status line
-        if [ $line != "A" ] && [ $line != "AM" ] && [ $line != "M" ]; then
+        if [ $line != "A" ] && [ $line != "AM" ] && [ $line != "M" ] && [ $line != "MM" ]; then
             # use sed to remove the repository from the full repo and filename
             filename=`echo "$line" |sed "s|$repository||g"`
             # don't export if it's a directory we've already created

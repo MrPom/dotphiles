@@ -119,4 +119,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-[[ $- = *i* ]] && source ~/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-nojhan-SLASH-liquidprompt.git/liquidprompt
+[[ $- = *i* ]] && source ~/.antigen/bundles/nojhan/liquidprompt/liquidprompt
