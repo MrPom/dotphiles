@@ -1,13 +1,59 @@
-#
-# dotphiles : https://github.com/dotphiles/dotphiles
-#
-# Server options for subversion
-#
-# Authors:
-#   Ben O'Hara <bohara@gmail.com>
-#
+[groups]
+# group1 = *.collab.net
+# othergroup = repository.blarggitywhoomph.com
+# thirdgroup = *.example.com
+
+### Information for the first group:
+# [group1]
+# http-proxy-host = proxy1.some-domain-name.com
+# http-proxy-port = 80
+# http-proxy-username = blah
+# http-proxy-password = doubleblah
+# http-timeout = 60
+# neon-debug-mask = 130
+# store-plaintext-passwords = no
+# username = harry
+
+### Information for the second group:
+# [othergroup]
+# http-proxy-host = proxy2.some-domain-name.com
+# http-proxy-port = 9000
+# No username and password for the proxy, so use the defaults below.
+
+### You can set default parameters in the 'global' section.
+### These parameters apply if no corresponding parameter is set in
+### a specifically matched group as shown above.  Thus, if you go
+### through the same proxy server to reach every site on the
+### Internet, you probably just want to put that server's
+### information in the 'global' section and not bother with
+### 'groups' or any other sections.
+###
+### Most people might want to configure password caching
+### parameters here, but you can also configure them per server
+### group (per-group settings override global settings).
+###
+### If you go through a proxy for all but a few sites, you can
+### list those exceptions under 'http-proxy-exceptions'.  This only
+### overrides defaults, not explicitly matched server names.
+###
+### 'ssl-authority-files' is a semicolon-delimited list of files,
+### each pointing to a PEM-encoded Certificate Authority (CA)
+### SSL certificate.  See details above for overriding security
+### due to SSL.
 
 [global]
+# http-proxy-exceptions = *.exception.com, www.internal-site.org
+# http-proxy-host = defaultproxy.whatever.com
+# http-proxy-port = 7000
+# http-proxy-username = defaultusername
+# http-proxy-password = defaultpassword
+# http-compression = no
+# No http-timeout, so just use the builtin default.
+# No neon-debug-mask, so neon debugging is disabled.
+# ssl-authority-files = /path/to/CAcert.pem;/path/to/CAcert2.pem
+#
 # Password / passphrase caching parameters:
+# store-passwords = no
+# store-ssl-client-cert-pp = no
 store-plaintext-passwords = no
-
+# store-ssl-client-cert-pp-plaintext = no
