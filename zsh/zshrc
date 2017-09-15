@@ -16,6 +16,7 @@ antigen bundle jsontools
 antigen bundle pip
 # antigen bundle ssh-agent
 antigen bundle sublime
+antigen bundle sudo
 antigen bundle svn
 antigen bundle wp-cli
 

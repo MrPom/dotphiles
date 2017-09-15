@@ -13,3 +13,6 @@
 [submodule "svn-color"]
 	path = svn-color
 	url = git@github.com:philchristensen/svn-color.git
+[submodule "whatthecommit"]
+	path = wtc
+	url = git@github.com:lwe/whatthecommit.git

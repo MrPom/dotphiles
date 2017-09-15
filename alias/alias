@@ -36,6 +36,15 @@ if [ -x /usr/bin/svn ]; then
     alias svn-remove='rm -rf `find . -type d -name .svn`'
 fi
 
+# Drush
+if [ -f "~/.drush/drush.bashrc" ] ; then
+  source ~/.drush/drush.bashrc
+fi
+
+if [ -f "~/.drush/drush.complete.sh" ] ; then
+  source ~/.drush/drush.complete.sh
+fi
+
 # `root` stuff.
 if [ `id -u` = 0 ]; then
     # Memory.
