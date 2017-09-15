@@ -28,6 +28,9 @@ alias ssh-eval='eval "$(ssh-agent -s)"'
 # Keyboard
 alias kbl=~/.msi-klm/msibacklight
 
+# Git whatthecommit
+alias gcwtc='gc -m "$(curl -s http://whatthecommit.com/index.txt)"'
+
 # SVN aliases.
 if [ -x /usr/bin/svn ]; then
     alias svn=~/.dotfiles/svn-color/svn-color.py
@@ -35,6 +38,7 @@ if [ -x /usr/bin/svn ]; then
     alias svnupdry='svn merge --dry-run -r BASE:HEAD .'
     alias svn-remove='rm -rf `find . -type d -name .svn`'
 fi
+
 
 # Drush
 if [ -f "~/.drush/drush.bashrc" ] ; then
