@@ -40,6 +40,7 @@ if [ -x /usr/bin/svn ]; then
 fi
 
 
+
 # Drush
 if [ -f "~/.drush/drush.bashrc" ] ; then
   source ~/.drush/drush.bashrc
@@ -55,4 +56,6 @@ if [ `id -u` = 0 ]; then
     alias dropram='sync && echo 3 > /proc/sys/vm/drop_caches'
     alias dropswap='swapoff -a &&  swapon -a'
     alias dropmem='dropram && dropswap && dropram'
+    # OpenSsl self.
+    alias opensslself=~/.dotfiles/openssl/openssl.sh
 fi
