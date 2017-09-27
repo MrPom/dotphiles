@@ -81,6 +81,7 @@ zsh/zshrc
 envy                git=any
 mr-pom.io           git=any
 d001.dev            git=any
+d001.localhost      git=any
 l0068               git=any
 envy                git=any
 vps310750.ovh.net   git=any
