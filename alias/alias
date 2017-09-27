@@ -39,15 +39,13 @@ if [ -x /usr/bin/svn ]; then
     alias svn-remove='rm -rf `find . -type d -name .svn`'
 fi
 
-
-
 # Drush
 if [ -f "~/.drush/drush.bashrc" ] ; then
-  source ~/.drush/drush.bashrc
+    source ~/.drush/drush.bashrc
 fi
 
 if [ -f "~/.drush/drush.complete.sh" ] ; then
-  source ~/.drush/drush.complete.sh
+    source ~/.drush/drush.complete.sh
 fi
 
 # `root` stuff.
@@ -56,6 +54,11 @@ if [ `id -u` = 0 ]; then
     alias dropram='sync && echo 3 > /proc/sys/vm/drop_caches'
     alias dropswap='swapoff -a &&  swapon -a'
     alias dropmem='dropram && dropswap && dropram'
-    # OpenSsl self.
-    alias opensslself=~/.dotfiles/openssl/openssl.sh
+
+    # Stop/Start Apache+Mysql.
+    alias lampk='service apache2 stop && service mysql stop'
+    alias lamps='service apache2 start && service mysql start'
+
+    # Generate self certificate.
+    alias certgen=~/.dotfiles/openssl/cert-gen.sh
 fi

@@ -6,7 +6,7 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle command-not-found
-# antigen bundle composer
+antigen bundle composer
 antigen bundle docker
 antigen bundle docker-compose
 antigen bundle git
