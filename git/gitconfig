@@ -4,6 +4,7 @@
 	email = julien.pommier@periscopemail.com
 [core]
     autocrlf = input
+	eol = lf
 [push]
     default = simple
 [pull]
