@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 if [ ! $1 ] || [ ! $2 ]; then
     echo "Please enter a user & a path to fix."
