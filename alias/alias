@@ -59,6 +59,9 @@ if [ `id -u` = 0 ]; then
     alias lampk='service apache2 stop && service mysql stop'
     alias lamps='service apache2 start && service mysql start'
 
+    # Fix web directory permissions.
+    alias fix-perm=~/.dotfiles/fix-perm/fix-perm.sh
+
     # Generate self certificate.
     alias certgen=~/.dotfiles/openssl/cert-gen.sh
 
