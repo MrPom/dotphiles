@@ -7,7 +7,7 @@ fi
 
 # Set up nice names for the incoming parameters to make the script more readable.
 user=$1
-path=$1
+path=$2
 
 # Fix path permissions.
 
