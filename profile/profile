@@ -19,6 +19,11 @@ PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.config/composer/vendor/bin:$PATH
 export PATH=~/.composer/vendor/bin:$PATH
+export PATH=~/.go/vendor/bin:$PATH
+export PATH=~/.linuxbrew/bin:$PATH
+
+export GOPATH=~/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 export LANGUAGE="fr:en"
 export LC_MESSAGES="fr_FR.UTF-8"

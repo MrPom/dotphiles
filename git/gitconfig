@@ -9,3 +9,5 @@
     default = simple
 [pull]
 	rebase = preserve
+[color]
+	ui = auto
