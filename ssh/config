@@ -2,8 +2,8 @@ Host *
 #   ForwardAgent no
 #   ForwardX11 no
 #   ForwardX11Trusted yes
-#   RhostsRSAAuthentication no
-#   RSAAuthentication yes
+#   RhostsPubkeyAuthentication no
+#   PubkeyAuthentication yes
 #   PasswordAuthentication yes
 #   HostbasedAuthentication no
 #   GSSAPIAuthentication no
@@ -42,32 +42,32 @@ Host *
 
 # gitlab.com server
 Host gitlab.com
-    RSAAuthentication yes
+    PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-mr_pom
     User Mr_Pom
 
 # github.com server
 Host github.com
-    RSAAuthentication yes
+    PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-mr_pom
     User MrPom
 
 # Periscope gitlab server
 Host gitlab.byperiscope.com
-    RSAAuthentication yes
+    PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-mr_pom
     User jpommier
 
 # Sequoiasoft Eklo production server
 Host eklohotels.com
     HostName 217.13.56.142
-    RSAAuthentication yes
+    PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
     User ad2340
 
 # Sequoiasoft Eklo pre-production server
 Host eklo.resalys.com
     HostName 217.13.57.44
-    RSAAuthentication yes
+    PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
     User ad2336
