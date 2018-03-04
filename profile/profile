@@ -14,7 +14,7 @@ if [ -n "$ZSH" ]; then
     fi
 fi
 
-# Set PATH so it includes user's private bin directories.
+# Set PATH so it includes user’s private bin directories.
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 export PATH=~/.npm-global/bin:$PATH
 export PATH=~/.config/composer/vendor/bin:$PATH

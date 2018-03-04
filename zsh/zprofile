@@ -1,12 +1,15 @@
-#
-# dotphiles : https://github.com/dotphiles/dotphiles
-#
-# Executes commands at login pre-zshrc.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#   Ben O'Hara <bohara@gmail.com>
-#
+# Set PATH so it includes user’s private bin directories.
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+export PATH=~/.npm-global/bin:$PATH
+export PATH=~/.config/composer/vendor/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
+export PATH=~/.go/vendor/bin:$PATH
+export PATH=~/.linuxbrew/bin:$PATH
 
-# Customize to your needs...
+export GOPATH=~/.go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
+export LANGUAGE="fr:en"
+export LC_MESSAGES="fr_FR.UTF-8"
+export LC_CTYPE="fr_FR.UTF-8"
+export LC_COLLATE="fr_FR.UTF-8"
