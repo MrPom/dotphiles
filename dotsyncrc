@@ -9,74 +9,74 @@
 
 [files]
 # Uncomment examples below
-#ack/ackrc
+# ack/ackrc
 alias/alias
-#aptitude
+# aptitude
 bash/bashrc
-#bin:bin
-#ctags/ctags
-#cmus
-#curl/curlrc
+# bin:bin
+# ctags/ctags
+# cmus
+# curl/curlrc
 dotsyncrc
 git/gitconfig
 git/gitignore
-#git/gitattributes
-#git/tigrc
-#git/gitk
-#gnupg
-#grc
-#input/editrc
-#input/inputrc
-#irssi
+# git/gitattributes
+# git/tigrc
+# git/gitk
+# gnupg
+# grc
+# input/editrc
+# input/inputrc
+# irssi
 liquidprompt/liquidpromptrc:.config/liquidpromptrc
 liquidprompt/liquidprompt/mr_pom.ps1:.config/liquidprompt/mr_pom.ps1
 liquidprompt/liquidprompt/mr_pom.theme:.config/liquidprompt/mr_pom.theme
-#mpd/mpd.conf
-#mutt
-#mutt/muttrc
-#mutt/offlineimaprc
-#mysql/my.cnf
+# mpd/mpd.conf
+# mutt
+# mutt/muttrc
+# mutt/offlineimaprc
+# mysql/my.cnf
 nano/nanorc
 nano/syntax:.nano/syntax
-#ncmpcpp/config
-#ncmpcpp/error.log
+# ncmpcpp/config
+# ncmpcpp/error.log
 npm/npmrc
-#postgresql/psqlrc
+# postgresql/psqlrc
 profile/profile
-#python/pythonrc
-#python/pylintrc
-#rpm/rpmmacros
-#ruby/irbrc
-#ruby/pryrc
-#ruby/gemrc
-#ruby/railsrc
-#ruby/rdebugrc
-#ruby/aprc
-#ruby/caprc
-#screen/screenrc
-#shell/hushlogin
-#shell/urlview
+# python/pythonrc
+# python/pylintrc
+# rpm/rpmmacros
+# ruby/irbrc
+# ruby/pryrc
+# ruby/gemrc
+# ruby/railsrc
+# ruby/rdebugrc
+# ruby/aprc
+# ruby/caprc
+# screen/screenrc
+# shell/hushlogin
+# shell/urlview
 ssh
-#subversion
-#task/task
-#task/taskrc
-#tmux/tmux.conf
-#tmux/tmuxinator
-#vim/dotvim:.vim
-#vim/vimrc
-#vim/gvimrc
-#wget/wgetrc
-#zsh/fasdrc
-#zsh/dotzsh:.zsh
-#zsh/zlogin
-#zsh/zlogout
-zsh/zprofile
-#zsh/zshenv
+# subversion
+# task/task
+# task/taskrc
+# tmux/tmux.conf
+# tmux/tmuxinator
+# vim/dotvim:.vim
+# vim/vimrc
+# vim/gvimrc
+# wget/wgetrc
+# zsh/fasdrc
+# zsh/dotzsh:.zsh
+# zsh/zlogin
+# zsh/zlogout
+# zsh/zprofile
+# zsh/zshenv
 zsh/zshrc
 [endfiles]
 
 # Hosts to sync
-## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
+## hostname         type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
 [hosts]
 envy                git=any
 mr-pom.io           git=any
