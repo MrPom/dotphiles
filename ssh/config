@@ -40,7 +40,7 @@ Host *
     ServerAliveInterval 300
     KeepAlive yes
     ServerAliveCountMax 2
-    AddKeysToAgent yes
+    # AddKeysToAgent yes
 
 # gitlab.com server
 Host gitlab.com
