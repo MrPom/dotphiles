@@ -30,7 +30,7 @@ Installation
 
   2. Clone your fork.
 
-        git clone --recursive git@github.com:*username*/dotphiles.git ~/.dotfiles
+     `git clone --recursive git@github.com:*username*/dotphiles.git ~/.dotfiles`
 
   3. Setup your terminal and the dotfiles you want to use, see below.
 
@@ -184,7 +184,7 @@ To keep your fork upto date with additions to the dotphiles repo, do the followi
 License
 -------
 
-Copyright (c) 2012 [dotphiles contributers][7]
+Copyright (c) 2012 [dotphiles contributors][7]
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
