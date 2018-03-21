@@ -1,4 +1,5 @@
-Contribute
+# Contribute
+
 ----------
 
 This project would not exist without all of its users and [contributors][2].

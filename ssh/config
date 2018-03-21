@@ -19,7 +19,6 @@ Host *
     IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
     # IdentityFile ~/.ssh/id_dsa
     # IdentityFile ~/.ssh/id_ecdsa
-    IdentityFile ~/.ssh/id_ecdsa-mr_pom
     # IdentityFile ~/.ssh/id_ed25519
     # Port 22
     # Protocol 2
@@ -52,12 +51,13 @@ Host gitlab.com
 Host github.com
     PubkeyAuthentication yes
     IdentityFile ~/.ssh/id_rsa-mr_pom
-    User mr-pom
+    User mr_pom
+    ForwardAgent yes
 
 # Periscope GitLab server
 Host gitlab.byperiscope.com
     PubkeyAuthentication yes
-    IdentityFile ~/.ssh/id_rsa-mr_pom
+    IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
     User jpommier
 
 # Sequoiasoft Eklo production server
