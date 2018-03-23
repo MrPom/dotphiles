@@ -9,7 +9,7 @@
 	url = git@github.com:zsh-users/antigen.git
 [submodule "dotsync"]
 	path = dotsync
-	url = git@github.com:MrPom/dotsync.git
+	url = git@github.com:mr-pom/dotsync.git
 [submodule "svn-color"]
 	path = svn-color
 	url = git@github.com:philchristensen/svn-color.git
