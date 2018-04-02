@@ -16,7 +16,7 @@ Host *
     # ConnectTimeout 0
     # StrictHostKeyChecking ask
     IdentityFile ~/.ssh/id_rsa-mr_pom
-    IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
+    # IdentityFile ~/.ssh/id_rsa-periscope-mr_pom
     # IdentityFile ~/.ssh/id_dsa
     # IdentityFile ~/.ssh/id_ecdsa
     # IdentityFile ~/.ssh/id_ed25519
@@ -39,6 +39,7 @@ Host *
     ServerAliveInterval 300
     KeepAlive yes
     ServerAliveCountMax 2
+    UseKeychain yes
     AddKeysToAgent yes
 
 # gitlab.com server
