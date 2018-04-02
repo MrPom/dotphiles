@@ -80,9 +80,8 @@ zsh/zshrc
 [hosts]
 envy                git=any
 mr-pom.io           git=any
-d001.test           git=any
-d001                git=any
-l0068               git=any
+pom-mbp.home        git=any
+pom-mbp             git=any
 envy                git=any
 vps310750.ovh.net   git=any
 vps313297.ovh.net   git=any
