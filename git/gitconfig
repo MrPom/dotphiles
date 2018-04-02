@@ -1,7 +1,8 @@
 # Global Config
 [user]
-	name = Julien Pommier
+	name = Mr_Pom
 	useConfigOnly = true
+	email = 516062+mr-pom@users.noreply.github.com
 [core]
     autocrlf = input
 	eol = lf
