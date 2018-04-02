@@ -2,7 +2,7 @@
 alias l='ls -lah'
 alias la='ls -lAh'
 alias ll='ls -lh'
-alias ls='ls --color=tty'
+# alias ls='ls --color=tty'
 alias lsa='ls -lah'
 alias dir='dir -F --color=always'
 
